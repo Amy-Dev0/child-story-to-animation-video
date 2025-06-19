@@ -52,6 +52,8 @@ The goal is to promote creativity, storytelling, and technical skills through a 
 
 ### 🎬 Video Output  
 ![Video Preview](https://raw.githubusercontent.com/Amy-Dev0/child-story-to-animation-video/main/video-preview.png)
+![Video Preview](https://raw.githubusercontent.com/Amy-Dev0/child-story-to-animation-video/main/video-preview1.png)
+
 
 ---
 
