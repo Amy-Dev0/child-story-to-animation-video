@@ -51,9 +51,8 @@ The goal is to promote creativity, storytelling, and technical skills through a 
 ![Story Editor](https://raw.githubusercontent.com/Amy-Dev0/child-story-to-animation-video/main/story-editor.png)
 
 ### 🎬 Video Output  
-![Video Preview](https://raw.githubusercontent.com/Amy-Dev0/child-story-to-animation-video/main/video-preview.png)
-![Video Preview](https://raw.githubusercontent.com/Amy-Dev0/child-story-to-animation-video/main/video-preview1.png)
-
+![Video Preview](https://raw.githubusercontent.com/Amy-Dev0/child-story-to-animation-video/main/video-preview.png)  
+![Video Preview 2](https://raw.githubusercontent.com/Amy-Dev0/child-story-to-animation-video/main/video-preview1.png)
 
 ---
 
@@ -72,3 +71,39 @@ To run this project on your local machine, follow these steps:
 1. **Download or Clone the Repository**
 ```bash
 git clone https://github.com/Amy-Dev0/child-story-to-animation-video
+```
+Or download the ZIP and extract it.
+
+2. **Move Project to XAMPP Directory**  
+Move the extracted folder to:
+```
+C:\xampp\htdocs\child-story-to-animation-video\
+```
+
+3. **Start XAMPP**
+- Open XAMPP Control Panel
+- Start **Apache** and **MySQL**
+
+4. **Import the Database**
+- Open your browser and go to: `http://localhost/phpmyadmin`
+- Create a new database (e.g., `child_story_db`)
+- Click **Import** and upload the file `childstory.sql`
+
+5. **Run the Website**  
+Open your browser and go to:
+```
+http://localhost/child-story-to-animation-video/
+```
+
+---
+
+## 🙋‍♀️ About Me
+
+Built by **Amina (Amy-Dev0)** — a Computer Science graduate passionate about frontend development, storytelling, and building creative tools for kids.
+
+---
+
+## 📫 Contact
+
+📧 AminaIssaMoumine@outlook.com  
+🔗 [GitHub Profile](https://github.com/Amy-Dev0)
