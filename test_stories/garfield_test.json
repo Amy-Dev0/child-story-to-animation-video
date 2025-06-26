@@ -1,0 +1,32 @@
+{
+  "title": "garfield",
+  "language": "en",
+  "voice": "male",
+  "user_story": "Once upon a time in a cozy town, there lived a chubby orange cat named Garfield. Garfield loved lasagna more than anything in the world. One day, he couldn't find any lasagna, so he decided to help his friends gather ingredients and cook a delicious meal together. They all enjoyed the feast and realized that sharing is more fun than being selfish. Garfield and his friends learned that sharing is caring.",
+  "expected_scenes": 3,
+  "expected_keywords": [
+    "time",
+    "town",
+    "chubby",
+    "orange",
+    "cat",
+    "Garfield",
+    "Garfield",
+    "lasagna",
+    "world",
+    "day",
+    "lasagna",
+    "friends",
+    "ingredients",
+    "meal",
+    "feast",
+    "sharing",
+    "Garfield",
+    "friends",
+    "sharing"
+  ],
+  "expected_description_keywords": [
+    "time",
+    "town"
+  ]
+}

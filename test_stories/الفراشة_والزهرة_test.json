@@ -1,0 +1,13 @@
+{
+  "title": "الفراشة والزهرة",
+  "language": "ar",
+  "voice": "female",
+  "user_story": "في غابةٍ سحرية، رأت الفراشة لولو زهرةً حزينة. حطت لولو على الزهرة وقالت: لماذا أنتِ حزينة؟ ردت الزهرة: أشعر بالوحدة. قررت لولو أن تغني لها أغنيةً مبهجة، فابتسمت الزهرة. تعلمت لولو أن الصداقة تجلب الفرح.",
+  "expected_scenes": 3,
+  "expected_keywords": [],
+  "expected_description_keywords": [],
+  "expected_image_elements": [
+    "cat",
+    "star"
+  ]
+}

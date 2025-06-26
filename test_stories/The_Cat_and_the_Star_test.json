@@ -1,0 +1,17 @@
+{
+  "title": "The Cat and the Star",
+  "language": "en",
+  "voice": "male",
+  "user_story": "the cat sees a star. She jumps. She is happy.",
+  "expected_scenes": 3,
+  "expected_keywords": [
+    "cat"
+  ],
+  "expected_description_keywords": [
+    "cat"
+  ],
+  "expected_image_elements": [
+    "cat",
+    "star"
+  ]
+}
