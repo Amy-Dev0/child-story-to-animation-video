@@ -77,7 +77,7 @@ Or download the ZIP and extract it.
 2. **Move Project to XAMPP Directory**  
 Move the extracted folder to:
 ```
-C:\xampp\htdocs\DreamScribeAI\
+C:\xampp\htdocs\DreamScribeAi\
 ```
 
 3. **Start XAMPP**
@@ -92,7 +92,7 @@ C:\xampp\htdocs\DreamScribeAI\
 5. **Run the Website**  
 Open your browser and go to:
 ```
-http://localhost/DremScribeAi/
+http://localhost/DreamScribeAi/
 ```
 
 ---
