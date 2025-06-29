@@ -38,7 +38,7 @@ if (isset($_POST['deleteStoryID'])) {
 
     if ($story) {
         // Delete the associated files
-        $baseDir = "C:/xampp/htdocs/DremScribeAI/";
+        $baseDir = "C:/xampp/htdocs/DreamScribeAi/";
         $filesToDelete = [$story['audioFilePath'], $story['videoFilePath'], $story['thumbnailPath']];
         foreach ($filesToDelete as $file) {
             if ($file && file_exists($baseDir . $file)) {
@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['story_title']) && !is
     $post_data_log .= "language: $language\n";
     $post_data_log .= "voice: $voice\n";
     $post_data_log .= "childID: $childID\n";
-    file_put_contents('C:/xampp/htdocs/DremScribeAI/generate.log', $post_data_log . "\n", FILE_APPEND);
+    file_put_contents('C:/xampp/htdocs/DreamScribeAi/generate.log', $post_data_log . "\n", FILE_APPEND);
 
     if (empty($story_title) || empty($character_description) || empty($story_text) || empty($childID)) {
         $_SESSION['errorMessage'] = "Missing required fields for video generation.";
@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['story_title']) && !is
     }
 
     // Write arguments to a temporary JSON file
-    $temp_json_path = 'C:/xampp/htdocs/DremScribeAI/temp_args.json';
+    $temp_json_path = 'C:/xampp/htdocs/DreamScribeAi/temp_args.json';
     $args_data = [
         'story_title' => $story_title,
         'character_description' => $character_description,
@@ -97,17 +97,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['story_title']) && !is
 
     // Log the JSON data
     $json_log = "JSON Data Written to Temp File:\n" . json_encode($args_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) . "\n";
-    file_put_contents('C:/xampp/htdocs/DremScribeAI/generate.log', $json_log . "\n", FILE_APPEND);
+    file_put_contents('C:/xampp/htdocs/DreamScribeAi/generate.log', $json_log . "\n", FILE_APPEND);
 
     // Call app.py with the path to the JSON file
-    $command = "python C:/xampp/htdocs/DremScribeAI/app.py --args-file " . escapeshellarg($temp_json_path);
+    $command = "python C:/xampp/htdocs/DreamScribeAi/app.py --args-file " . escapeshellarg($temp_json_path);
     exec("$command 2>&1", $output, $return_var);
 
     // Combine output lines into a single string, ensure all lines are captured
     $output_str = implode("\n", $output);
 
     // Log the command, full output, and return code for debugging
-    file_put_contents('C:/xampp/htdocs/DremScribeAI/generate.log', "Command: $command\nOutput: $output_str\nReturn: $return_var\n\n", FILE_APPEND);
+    file_put_contents('C:/xampp/htdocs/DreamScribeAi/generate.log', "Command: $command\nOutput: $output_str\nReturn: $return_var\n\n", FILE_APPEND);
 
     // Check for specific error messages in the output
     $error_detected = false;
@@ -494,7 +494,7 @@ $language = isset($_GET['language']) ? trim($_GET['language']) : '';
 
     <!-- Navbar -->
     <div class="navbar">
-        <h1>DremScribeAI</h1>
+        <h1>DreamScribeAi</h1>
         <div class="nav-links">
             <a href="index.php">Home</a>
             <a href="about.php">About Us</a>

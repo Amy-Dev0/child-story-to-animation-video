@@ -9,17 +9,31 @@ import sys
 import json
 import argparse
 from datetime import datetime
+from dotenv import load_dotenv
 
 # Force UTF-8 encoding for output to handle Arabic text
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
 
-# API keys
-OPENAI_API_KEY = "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"
-TOPMEDIA_API_KEY = "82c25da6a739423d8b4a8521335a9d55"
+# Load environment variables from .env
+load_dotenv()
+
+try:
+    import openai
+except ImportError:
+    print("Error: OpenAI library not found. Please install it using 'pip install openai'")
+    sys.exit(1)
+
+# API Keys from environment variables
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TOPMEDIA_API_KEY = os.getenv("TOPMEDIA_API_KEY")
+
+if not OPENAI_API_KEY or not TOPMEDIA_API_KEY:
+    print("Error: Missing OPENAI_API_KEY or TOPMEDIA_API_KEY in .env file.")
+    sys.exit(1)
 
 # Paths
-BASE_DIR = "C:/xampp/htdocs/DremScribeAi"
+BASE_DIR = "C:/xampp/htdocs/DreamScribeAi"
 FFMPEG_PATH = "C:/ffmpeg-2025-03-17-git-5b9356f18e-essentials_build/bin/ffmpeg.exe"
 FFPROBE_PATH = "C:/ffmpeg-2025-03-17-git-5b9356f18e-essentials_build/bin/ffprobe.exe"
 

@@ -52,7 +52,7 @@ except Exception as e:
     sys.exit(1)
 
 # Define paths
-BASE_DIR = "C:/xampp/htdocs/DremScribeAi"
+BASE_DIR = "C:/xampp/htdocs/DreamScribeAi"
 FFMPEG_PATH = "C:/ffmpeg-2025-03-17-git-5b9356f18e-essentials_build/bin/ffmpeg.exe"
 FFPROBE_PATH = "C:/ffmpeg-2025-03-17-git-5b9356f18e-essentials_build/bin/ffprobe.exe"
 

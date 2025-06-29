@@ -20,7 +20,7 @@ error_log("ai_title_animation.php - Received parameters: " . print_r($_GET, true
 
 // Validate video paths
 $video_file = !empty($video_paths) ? $video_paths[0] : '';
-$absolute_video_path = !empty($video_file) ? "C:/xampp/htdocs/DremScribeAi/" . $video_file : '';
+$absolute_video_path = !empty($video_file) ? "C:/xampp/htdocs/DreamScribeAi/" . $video_file : '';
 if (empty($video_file) || !file_exists($absolute_video_path)) {
     $error = "Video file not found at: " . htmlspecialchars($absolute_video_path);
     error_log("ai_title_animation.php - Error: $error");

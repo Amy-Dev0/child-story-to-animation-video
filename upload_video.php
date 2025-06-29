@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Video - DremScribeAI</title>
+    <title>Upload Video - DreamScribeAi</title>
     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -266,7 +266,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <!-- Navbar -->
     <div class="navbar">
-        <h1>DremScribeAI</h1>
+        <h1>DreamScribeAi</h1>
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>

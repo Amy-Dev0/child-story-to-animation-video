@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($errors)) {
         // Save to a log file or database (example log file approach)
         $logEntry = "Date: " . date('Y-m-d H:i:s') . "\nName: $name\nEmail: $email\nPhone: $phone\nMessage: $message\n\n";
-        file_put_contents('C:/xampp/htdocs/DremScribeAI/contact_logs.txt', $logEntry, FILE_APPEND);
+        file_put_contents('C:/xampp/htdocs/DreamScribeAi/contact_logs.txt', $logEntry, FILE_APPEND);
 
         // Optionally, redirect or show success message
         $_SESSION['contactSuccess'] = "Thank you for your message! We will get back to you soon.";
@@ -59,7 +59,7 @@ unset($_SESSION['contactErrors']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - DremScribeAI</title>
+    <title>Contact - DreamScribeAi</title>
     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -289,7 +289,7 @@ unset($_SESSION['contactErrors']);
 
     <!-- Navbar -->
     <div class="navbar">
-        <h1>DremScribeAI</h1>
+        <h1>DreamScribeAi</h1>
         <div class="nav-links">
             <a href="index.php">Home</a>
             <a href="about.php">About Us</a>

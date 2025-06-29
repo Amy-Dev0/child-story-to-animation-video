@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DremScribeAI - A Magical Storytelling Adventure</title>
+    <title>DreamScribeAi - A Magical Storytelling Adventure</title>
     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -169,7 +169,7 @@
     <div class="storybook-border"></div>
 
     <div class="navbar">
-        <h1>DremScribeAI</h1>
+        <h1>DreamScribeAi</h1>
         <div class="nav-links">
             <a href="about.php">About Us</a>
             <a href="signup.php">Sign Up</a>
@@ -179,7 +179,7 @@
     </div>
 
     <div class="main-content">
-        <h2>Welcome to DremScribeAI!</h2>
+        <h2>Welcome to DreamScribeAi!</h2>
         <p>A magical place to share and explore video stories!</p>
         <a href="login.php" class="get-started-btn">Get Started</a>
     </div>

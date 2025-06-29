@@ -8,7 +8,7 @@ $result = $stmt->get_result();
 $adminVideos = $result->fetch_all(MYSQLI_ASSOC);
 $stmt->close();
 
-$baseUrl = "http://localhost/DremScribeAI/";
+$baseUrl = "http://localhost/DreamScribeAi/";
 ?>
 
 <!DOCTYPE html>
@@ -226,7 +226,7 @@ $baseUrl = "http://localhost/DremScribeAI/";
 
     <!-- Navbar -->
     <div class="navbar">
-        <h1>DremScribeAI</h1>
+        <h1>DreamScribeAi</h1>
         <div class="nav-links">
             <a href="index.php">Home</a>
             <a href="about.php">About Us</a>

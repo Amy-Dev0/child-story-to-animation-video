@@ -21,14 +21,14 @@ $language_arg = escapeshellarg($language);
 $voice_arg = escapeshellarg($voice);
 
 // Call app.py without --generate-from-title flag for video generation
-$command = "python C:/xampp/htdocs/DremScribeAi/app.py $story_title_arg $character_description_arg $story_text_arg $language_arg $voice_arg";
+$command = "python C:/xampp/htdocs/DreamScribeAi/app.py $story_title_arg $character_description_arg $story_text_arg $language_arg $voice_arg";
 exec("$command 2>&1", $output, $return_var);
 
 // Combine output lines into a single string
 $output_str = implode("\n", $output);
 
 // Log the command and output for debugging
-file_put_contents('C:/xampp/htdocs/DremScribeAi/generate.log', "Command: $command\nOutput: $output_str\nReturn: $return_var\n", FILE_APPEND);
+file_put_contents('C:/xampp/htdocs/DreamScribeAi/generate.log', "Command: $command\nOutput: $output_str\nReturn: $return_var\n", FILE_APPEND);
 
 // The last three lines of output should be audio path, video path, and thumbnail path
 $lines = array_filter(array_map('trim', $output));

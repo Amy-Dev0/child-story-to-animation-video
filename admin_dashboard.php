@@ -46,7 +46,7 @@ $videosResult = $videosStmt->get_result();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard - DremScribeAI</title>
+    <title>Admin Dashboard - DreamScribeAi</title>
     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -249,7 +249,7 @@ $videosResult = $videosStmt->get_result();
 
     <!-- Navbar -->
     <div class="navbar">
-        <h1>DremScribeAI</h1>
+        <h1>DreamScribeAi</h1>
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>

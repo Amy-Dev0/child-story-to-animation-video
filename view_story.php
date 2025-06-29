@@ -40,7 +40,7 @@ if (!$story) {
     die("Error: Story not found or you do not have access to it.");
 }
 
-$baseUrl = "http://localhost/DremScribeAi/";
+$baseUrl = "http://localhost/DreamScribeAi/";
 $videoUrl = $story['videoFilePath'] ? $baseUrl . $story['videoFilePath'] : null;
 $thumbnailUrl = $story['thumbnailPath'] ? $baseUrl . $story['thumbnailPath'] : null;
 ?>
