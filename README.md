@@ -1,6 +1,6 @@
 # 🎬 child-story-to-animation-video
 
-A graduation project that empowers children aged 7–12 to transform their imaginative stories into animated videos using AI, with full bilingual (Arabic & English) support.
+A graduation project that empowers children aged 7–12 to transform their imaginative stories into animated videos using AI. 
 
 ---
 
@@ -77,7 +77,7 @@ Or download the ZIP and extract it.
 2. **Move Project to XAMPP Directory**  
 Move the extracted folder to:
 ```
-C:\xampp\htdocs\child-story-to-animation-video\
+C:\xampp\htdocs\DreamScribeAI\
 ```
 
 3. **Start XAMPP**
@@ -92,7 +92,7 @@ C:\xampp\htdocs\child-story-to-animation-video\
 5. **Run the Website**  
 Open your browser and go to:
 ```
-http://localhost/child-story-to-animation-video/
+http://localhost/DremScribeAi/
 ```
 
 ---
